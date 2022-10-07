@@ -11,21 +11,24 @@ body {
 }
 
 .logo {
-    height:auto;
-    width:200px;
+    height: auto;
+    width: 200px;
 }
+
 .top {
     background-color: #162438e3;
     padding: 0 100px;
     min-height: 500px;
 }
+
 .header-links {
     display: flex;
     list-style: none;
-    margin-right: 20px;   
+    margin-right: 20px;
     padding: 0;
     gap: 10px;
 }
+
 button {
     background-color: lightblue;
     color: black;
@@ -36,7 +39,7 @@ button {
 }
 
 .placeholder {
-    width:500px;
+    width: 500px;
     height: auto;
 }
 
@@ -80,7 +83,7 @@ p {
 }
 
 .quote-section .quote {
-    color:black;
+    color: black;
     font-size: 24px;
     text-align: left;
     max-width: 500px;
@@ -105,15 +108,15 @@ p {
 }
 
 .cards-info {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .cards {
-    flex-grow:1;
+    flex-grow: 1;
     display: flex;
     gap: 30px;
 }
@@ -130,14 +133,14 @@ p {
 }
 
 .info img {
-    width:250px;
-    height:350px;
+    width: 250px;
+    height: 350px;
 }
 
 .img-text {
     margin-top: 20px;
     color: rgb(164, 0, 0);
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
 
@@ -148,11 +151,50 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .footer p {
+    margin: 0;
     font-family: Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-call {
+    background: rgb(0, 136, 255);
+    height: 120px;
+    width: 1000px;
+    border-radius: 10px;
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card-call p {
+    margin-left: 50px;
+}
+
+.card-call h2 {
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-top: 10px;
+    margin-left: 50px;
+
+}
+
+.card-call button {
+    align-self: center;
+    margin-right: 60px;
 }
